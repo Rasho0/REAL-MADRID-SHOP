@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+     <link rel="icon" type="image/x-icon" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Compra rápida - Real Madrid</title>
+    <link rel="stylesheet" href="compra_rapida.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <main class="compra-main">
+        <section class="compra-card" aria-labelledby="compra-titulo">
+            <h1 id="compra-titulo">Finalizar compra</h1>
+            <form class="compra-form" autocomplete="on">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required placeholder="tucorreo@email.com">
+
+                <label for="direccion">Dirección de envío</label>
+                <input type="text" id="direccion" name="direccion" required placeholder="Calle, número, ciudad, CP">
+
+                <label for="producto">Producto</label>
+                <select id="producto" name="producto" required>
+                    <option value="">Selecciona una camiseta</option>
+                    <option value="local">Camiseta Local 2025</option>
+                    <option value="visitante">Camiseta Visitante 2025</option>
+                    <option value="tercera">Tercera Equipación 2025</option>
+                </select>
+
+                <label for="talla">Talla</label>
+                <select id="talla" name="talla" required>
+                    <option value="">Selecciona tu talla</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>2XL</option>
+                    <option>3XL</option>
+                </select>
+
+                <button type="submit" aria-label="Comprar ahora">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M7 17l5-5-5-5v10zm6-10v10h2V7h-2z"/></svg>
+                    Comprar ahora
+                </button>
+            </form>
+            <p class="compra-info">¿Dudas sobre tallas? <a href="guiadetallas.html">Consulta la guía de tallas</a></p>
+        </section>
+    </main>
+</body>
+</html>

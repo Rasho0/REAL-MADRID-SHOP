@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap');
+/* Collage equipo Real Madrid */
+
+.collage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.collage-item {
+    background: #fff;
+    border: 1px solid #a67c52;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(110,75,27,0.08);
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collage-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(110,75,27,0.10);
+}
+
+.collage-item p {
+    margin: 0.5rem 0 0 0;
+    color: #6e4b1b;
+    font-weight: 500;
+    font-size: 1rem;
+}
+body {
+    font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+    background: #f6f3ee;
+    color: #3a2c1a;
+    margin: 0;
+    padding: 0;
+    font-size: 1.08rem;
+    letter-spacing: 0.01em;
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    background: linear-gradient(90deg, #7c5a2a 0%, #f6f3ee 100%);
+    color: #fff;
+    padding: 2.5rem 0 1.2rem 0;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(110,75,27,0.13);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+header h1 {
+    font-size: 2.7rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(60,40,10,0.10);
+}
+
+nav a {
+    color: #7c5a2a;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 1rem;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.1rem;
+    transition: color 0.2s, text-shadow 0.2s;
+}
+
+nav a:hover {
+    color: #a67c52;
+    text-shadow: 0 2px 8px rgba(110,75,27,0.10);
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 2.5rem auto;
+    background: #fffbe6;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(110,75,27,0.10);
+    padding: 2.5rem 2rem;
+}
+
+section h2 {
+    color: #7c5a2a;
+    font-size: 2.1rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 2px solid #a67c52;
+    padding-bottom: 0.5rem;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+article {
+    background: #fff;
+    border: 1px solid #a67c52;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 2px 8px rgba(110,75,27,0.05);
+}
+
+article h3 {
+    color: #6e4b1b;
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+button {
+    background: linear-gradient(90deg, #7c5a2a 0%, #a67c52 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1.7rem;
+    font-size: 1.08rem;
+    font-weight: 700;
+    font-family: 'Montserrat', Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(110,75,27,0.13);
+    margin-top: 0.7rem;
+    margin-bottom: 0.2rem;
+    transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+button svg {
+    width: 1.1em;
+    height: 1.1em;
+    fill: #fff;
+    margin-left: 0.3em;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #a67c52 0%, #7c5a2a 100%);
+    box-shadow: 0 4px 16px rgba(110,75,27,0.18);
+    transform: translateY(-2px) scale(1.03);
+}
+/* Mejoras para inputs y formularios */
+input, textarea {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1.5px solid #a67c52;
+    background: #f6f3ee;
+    color: #3a2c1a;
+    padding: 0.6rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.7rem;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #7c5a2a;
+    box-shadow: 0 0 0 2px #a67c5233;
+}
+
+form {
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(110,75,27,0.05);
+    border: 1px solid #a67c52;
+}
+
+label {
+    color: #6e4b1b;
+    font-weight: 500;
+    display: block;
+    margin-top: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #a67c52;
+    border-radius: 4px;
+    font-size: 1rem;
+    background: #fffbe6;
+    color: #2d2d2d;
+}
+
+footer {
+    background: #7c5a2a;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+    margin-top: 2.5rem;
+    border-top: 2px solid #a67c52;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    box-shadow: 0 -2px 8px rgba(110,75,27,0.08);
+}
