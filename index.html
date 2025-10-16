@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <title>Tienda de Camisetas del Madrid</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda Oficial de Camisetas del Real Madrid</h1>
+        <nav>
+            <a href="#collage-equipo" class="nav-btn">
+                <button type="button" title="Inicio">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"><path d="M10 2 2 8h2v8h4v-4h4v4h4V8h2z"/></svg>
+                    Inicio
+                </button>
+            </a>
+            <a href="camisetas.html" class="nav-btn">
+                <button type="button" title="Productos">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"><path d="M4 4h12v2H4zm0 4h12v2H4zm0 4h12v2H4z"/></svg>
+                    Productos
+                </button>
+            </a>
+            <a href="#contacto" class="nav-btn">
+                <button type="button" title="Contacto">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"><path d="M2 4h16v12H2zm2 2v8h12V6z"/></svg>
+                    Contacto
+                </button>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section id="collage-equipo">
+            <h2>Equipo Real Madrid</h2>
+            <div class="collage-grid">
+                <div class="collage-item">
+                    <img src="https://fotografias.antena3.com/clipping/cmsimages01/2024/05/03/07BA2F83-590F-4A67-A2EA-6FAE6CACE349/jugadores-real-madrid-celebran-publico-victoria-3-2-barca-jornada-32-laliga_98.jpg?crop=4546,2558,x0,y0&width=1900&height=1069&optimize=low&format=webply" alt="Equipo Real Madrid 1" class="collage-img">
+                    <p>Celebración de gol</p>
+                </div>
+                <div class="collage-item">
+                    <img src="https://madridistareal.com/wp-content/uploads/2024/07/IMG_3687.png" alt="Equipo Real Madrid 3" class="collage-img">
+                    <p>Entrenamiento en Valdebebas</p>
+                </div>
+                <div class="collage-item">
+                    <img src="https://www.realmadrid.com/landings/assets/images/content/banner_home_ppal_2024.jpg" alt="Equipo Real Madrid 4" class="collage-img">
+                    <p>Victoria en Champions</p>
+                </div>
+                <div class="collage-item">
+                    <img src="https://image.ondacero.es/clipping/cmsimages01/2022/05/29/ACB6C4AC-5EE0-45C8-A31C-B049350F5835/aficionados-real-madrid-celebran-champions-cibeles_98.jpg?crop=1920,1080,x0,y200&width=1900&height=1069&optimize=high&format=webply" alt="Equipo Real Madrid 5" class="collage-img">
+                    <p>Celebración con la afición</p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form autocomplete="on" class="form-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="tucorreo@email.com">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje..."></textarea>
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"><path d="M2 10l15-6-6 15-2-7z"/></svg>
+                    Enviar
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Tienda Oficial del Real Madrid</p>
+    </footer>
+</body>
+</html>
